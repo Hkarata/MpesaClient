@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Rider\\MpesaClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|d:\\rider\\mpesaclient\\mpesaclient\\apimethodtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|solutionrelative:mpesaclient\\apimethodtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{f2bd8fb8-fc94-3dae-a733-fd993c73cc87}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiMethodTypes.cs",
+              "DocumentMoniker": "D:\\Rider\\MpesaClient\\MpesaClient\\ApiMethodTypes.cs",
+              "RelativeDocumentMoniker": "MpesaClient\\ApiMethodTypes.cs",
+              "ToolTip": "D:\\Rider\\MpesaClient\\MpesaClient\\ApiMethodTypes.cs",
+              "RelativeToolTip": "MpesaClient\\ApiMethodTypes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T22:27:46.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
