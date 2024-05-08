@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Rider\\MpesaClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|d:\\rider\\mpesaclient\\mpesaclient\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|solutionrelative:mpesaclient\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|d:\\rider\\mpesaclient\\mpesaclient\\markets\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|solutionrelative:mpesaclient\\markets\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|d:\\rider\\mpesaclient\\mpesaclient\\apiclientoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|solutionrelative:mpesaclient\\apiclientoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|d:\\rider\\mpesaclient\\mpesaclient\\markets\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|solutionrelative:mpesaclient\\markets\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|d:\\rider\\mpesaclient\\mpesaclient\\markets\\apimarkets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|solutionrelative:mpesaclient\\markets\\apimarkets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiClientOptions.cs",
-              "DocumentMoniker": "D:\\Rider\\MpesaClient\\MpesaClient\\ApiClientOptions.cs",
-              "RelativeDocumentMoniker": "MpesaClient\\ApiClientOptions.cs",
-              "ToolTip": "D:\\Rider\\MpesaClient\\MpesaClient\\ApiClientOptions.cs",
-              "RelativeToolTip": "MpesaClient\\ApiClientOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T22:53:35.363Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -48,14 +39,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApiClient.cs",
-              "DocumentMoniker": "D:\\Rider\\MpesaClient\\MpesaClient\\ApiClient.cs",
-              "RelativeDocumentMoniker": "MpesaClient\\ApiClient.cs",
-              "ToolTip": "D:\\Rider\\MpesaClient\\MpesaClient\\ApiClient.cs",
-              "RelativeToolTip": "MpesaClient\\ApiClient.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAwwCYAAAAsAAAA",
+              "Title": "Currency.cs",
+              "DocumentMoniker": "D:\\Rider\\MpesaClient\\MpesaClient\\Markets\\Currency.cs",
+              "RelativeDocumentMoniker": "MpesaClient\\Markets\\Currency.cs",
+              "ToolTip": "D:\\Rider\\MpesaClient\\MpesaClient\\Markets\\Currency.cs",
+              "RelativeToolTip": "MpesaClient\\Markets\\Currency.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T22:33:46.027Z",
+              "WhenOpened": "2024-05-08T23:51:09.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\Rider\\MpesaClient\\MpesaClient\\Markets\\Country.cs",
+              "RelativeDocumentMoniker": "MpesaClient\\Markets\\Country.cs",
+              "ToolTip": "D:\\Rider\\MpesaClient\\MpesaClient\\Markets\\Country.cs",
+              "RelativeToolTip": "MpesaClient\\Markets\\Country.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T23:49:49.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiMarkets.cs",
+              "DocumentMoniker": "D:\\Rider\\MpesaClient\\MpesaClient\\Markets\\ApiMarkets.cs",
+              "RelativeDocumentMoniker": "MpesaClient\\Markets\\ApiMarkets.cs",
+              "ToolTip": "D:\\Rider\\MpesaClient\\MpesaClient\\Markets\\ApiMarkets.cs",
+              "RelativeToolTip": "MpesaClient\\Markets\\ApiMarkets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T23:41:00.324Z",
               "EditorCaption": ""
             }
           ]

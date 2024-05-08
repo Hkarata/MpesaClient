@@ -1,4 +1,8 @@
-﻿using System.ComponentModel;
+﻿using Org.BouncyCastle.Crypto.Parameters;
+using Org.BouncyCastle.Security;
+using System.ComponentModel;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace MpesaClient
 {
@@ -10,8 +14,8 @@ namespace MpesaClient
         [Description("This is the public key obtained from the Mpesa portal, used for encrypting the request payload.")]
         private string PublicKey = "";
 
-        [Description("This is a boolean value that determines whether the request should be made over a secure connection.")]
-        private bool Ssl = false;
+        [Description("This is a boolean value that determines whether the request should be made over a secure connection. The default value is true")]
+        private bool Ssl = true;
 
         [Description("This is the type of HTTP method to be used in making the request.")]
         private ApiMethodTypes MethodType = ApiMethodTypes.GET;
@@ -20,7 +24,7 @@ namespace MpesaClient
         private string Address = "";
 
         [Description("This is the port number to be used in making the request. The default port is 80")]
-        private int Port = 80;
+        private int Port = 443;
 
         [Description("This is the path to the API endpoint.")]
         private string Path = "";
@@ -36,12 +40,31 @@ namespace MpesaClient
             ApiKey = options.ApiKey;
             PublicKey = options.PublicKey;
             Ssl = options.Ssl;
-            MethodType = options.MethodType;
             Address = options.Address;
             Port = options.Port;
             Path = options.Path;
             Headers = options.Headers ?? new Dictionary<string, string>();
             Parameters = options.Parameters ?? new Dictionary<string, string>();
         }
+
+        public string createBearerToken()
+        {
+            RsaKeyParameters key = (RsaKeyParameters)PublicKeyFactory.CreateKey(Convert.FromBase64String(PublicKey));
+            RSAParameters parameters = new RSAParameters();
+            parameters.Modulus = key.Modulus.ToByteArrayUnsigned();
+            parameters.Exponent = key.Exponent.ToByteArrayUnsigned();
+            RSACryptoServiceProvider cryptoServiceProvider = new RSACryptoServiceProvider();
+            cryptoServiceProvider.ImportParameters(parameters);
+            return Convert.ToBase64String(cryptoServiceProvider.Encrypt(Encoding.UTF8.GetBytes(ApiKey), false));
+        }
+
+        //public void createDefaultHeaders()
+        //{
+        //    this.context.addHeader("Host", Address);
+        //    this.context.addHeader("Content-Type", "application/json");
+        //    this.context.addHeader("Authorization", "Bearer " + this.createBearerToken());
+        //}
+
+
     }
 }
