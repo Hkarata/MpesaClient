@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "D:\\Rider\\MpesaClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|d:\\rider\\mpesaclient\\mpesaclient\\apimethodtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|solutionrelative:mpesaclient\\apimethodtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|d:\\rider\\mpesaclient\\mpesaclient\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5C7E27-2A22-4CA5-97F0-956A2133C9A9}|MpesaClient\\MpesaClient.csproj|solutionrelative:mpesaclient\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\heris\\Desktop\\ApiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +33,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApiMethodTypes.cs",
-              "DocumentMoniker": "D:\\Rider\\MpesaClient\\MpesaClient\\ApiMethodTypes.cs",
-              "RelativeDocumentMoniker": "MpesaClient\\ApiMethodTypes.cs",
-              "ToolTip": "D:\\Rider\\MpesaClient\\MpesaClient\\ApiMethodTypes.cs",
-              "RelativeToolTip": "MpesaClient\\ApiMethodTypes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "DocumentIndex": 1,
+              "Title": "ApiContext.cs",
+              "DocumentMoniker": "C:\\Users\\heris\\Desktop\\ApiContext.cs",
+              "ToolTip": "C:\\Users\\heris\\Desktop\\ApiContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T22:27:46.121Z",
+              "WhenOpened": "2024-05-08T22:34:02.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "D:\\Rider\\MpesaClient\\MpesaClient\\ApiClient.cs",
+              "RelativeDocumentMoniker": "MpesaClient\\ApiClient.cs",
+              "ToolTip": "D:\\Rider\\MpesaClient\\MpesaClient\\ApiClient.cs",
+              "RelativeToolTip": "MpesaClient\\ApiClient.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T22:33:46.027Z",
               "EditorCaption": ""
             }
           ]
