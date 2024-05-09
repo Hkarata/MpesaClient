@@ -35,8 +35,11 @@ namespace MpesaClient
         [Description("This is a dictionary of parameters to be included in the request.")]
         private Dictionary<string, string> Parameters = new Dictionary<string, string>();
 
-        public ApiClient(ApiClientOptions options)
+        private readonly HttpClient httpClient;
+
+        public ApiClient(ApiClientOptions options, IHttpClientFactory httpClientFactory)
         {
+            httpClient = httpClientFactory.CreateClient();
             ApiKey = options.ApiKey;
             PublicKey = options.PublicKey;
             Ssl = options.Ssl;
@@ -47,7 +50,7 @@ namespace MpesaClient
             Parameters = options.Parameters ?? new Dictionary<string, string>();
         }
 
-        public string createBearerToken()
+        private string CreateBearerToken()
         {
             RsaKeyParameters key = (RsaKeyParameters)PublicKeyFactory.CreateKey(Convert.FromBase64String(PublicKey));
             RSAParameters parameters = new RSAParameters();
@@ -58,12 +61,12 @@ namespace MpesaClient
             return Convert.ToBase64String(cryptoServiceProvider.Encrypt(Encoding.UTF8.GetBytes(ApiKey), false));
         }
 
-        //public void createDefaultHeaders()
-        //{
-        //    this.context.addHeader("Host", Address);
-        //    this.context.addHeader("Content-Type", "application/json");
-        //    this.context.addHeader("Authorization", "Bearer " + this.createBearerToken());
-        //}
+        private void AddDefaultHeaders()
+        {
+            Headers.Add("Content-Type", "application/json");
+            Headers.Add("Authorization", "Bearer" + this.CreateBearerToken());
+            Headers.Add("Origin", "*");
+        }
 
 
     }
