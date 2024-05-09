@@ -1,4 +1,6 @@
-﻿using Org.BouncyCastle.Crypto.Parameters;
+﻿using MpesaClient.HttpMethodType;
+using MpesaClient.Options;
+using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 using System.ComponentModel;
 using System.Security.Cryptography;

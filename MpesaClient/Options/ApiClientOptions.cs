@@ -1,4 +1,6 @@
-﻿namespace MpesaClient
+﻿using MpesaClient.HttpMethodType;
+
+namespace MpesaClient.Options
 {
     public class ApiClientOptions
     {
