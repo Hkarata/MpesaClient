@@ -69,7 +69,7 @@ namespace MpesaClient
             }
         }
 
-        public async Task<ApiResponse?> Post(ApiRequest request, CancellationToken cancellationToken)
+        public async Task<ApiResponse?> SendRequest(ApiRequest request, CancellationToken cancellationToken)
         {
             AddDefaultHeaders();
             var response = await _httpClient.PostAsJsonAsync(_path, request, cancellationToken);
@@ -77,6 +77,7 @@ namespace MpesaClient
             var result = JsonConvert.DeserializeObject<ApiResponse>(content);
             return result;
         }
+
 
     }
 }
