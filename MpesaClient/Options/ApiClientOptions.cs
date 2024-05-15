@@ -2,7 +2,7 @@
 
 namespace MpesaClient.Options
 {
-    public class ApiClientOptions
+    public abstract class ApiClientOptions
     {
         public string ApiKey { get; set; } = string.Empty;
         public string PublicKey { get; set; } = string.Empty;
